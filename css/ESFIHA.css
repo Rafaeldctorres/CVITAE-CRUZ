@@ -5,7 +5,7 @@ ESTEJAM ZERADOS E LIVRES DE ATRIBUTOS PADRÃ•ES DO NAVEGADOR =====*/
 .nome{
     display: inline-flex;
     position: relative;
-    left: 10vw;
+    left: 20vw;
     bottom: 20vh;
     color: rgb(0, 0, 0);
     background-color: rosybrown;
@@ -23,15 +23,33 @@ ESTEJAM ZERADOS E LIVRES DE ATRIBUTOS PADRÃ•ES DO NAVEGADOR =====*/
 
 }
 .formação{
-    width: 200px;
-    height: 80px;
+    position: relative;
+    width: 400px;
+    height: 200px;
     background-color: aqua;
 }
 .objetivo{
     background-color: brown;
+    position: relative;
     display: block;
-    width: 200px;
-    height: 80px;
-    right: 10vw;
-    top: 10px;
+    width: 400px;
+    height: 200px;
+    left: 60vw;
 }
+.abilidades{
+    position: relative;
+    display: block;
+    background-color: violet;
+    top: 10vh;
+    width: 50%;
+    height: 200px;
+
+}
+.pontos_forte{
+    display: block;
+    position: relative;
+    background-color: blue;
+    width: 50%;
+    height: 200px;
+    left: 50%;
+    top: 60vh;}
